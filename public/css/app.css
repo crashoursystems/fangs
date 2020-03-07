@@ -1,0 +1,397 @@
+.computers .button-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.computers .button-wrapper .fangs {
+  width: 20vw;
+  height: 6vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: #0C8127;
+  margin: 2vw;
+  border-radius: 2vw;
+  font-size: 1vw;
+}
+
+.computers .button-wrapper .fangs:hover {
+  cursor: pointer;
+}
+
+.computers .button-wrapper .button-comp {
+  width: 10vw;
+  height: 6vh;
+  background-color: #0C8127;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  margin: 1vw;
+  border-radius: 2vw;
+  text-transform: uppercase;
+}
+
+.computers .button-wrapper .button-comp:hover {
+  cursor: pointer;
+}
+
+.computers .comp-wrapper {
+  margin: 2vw auto;
+  width: 95vw;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  flex-basis: auto;
+  align-self: center;
+}
+
+.computers .comp-wrapper .comp {
+  margin: 2vw;
+  width: 40%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.computers .comp-wrapper .comp .img {
+  margin-right: 2vw;
+  width: 10vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.computers .comp-wrapper .comp .img img {
+  width: 7vw !important;
+  height: 9vw !important;
+}
+
+.computers .comp-wrapper .comp h1 {
+  line-height: 2.2vw;
+}
+
+.links a:hover {
+  cursor: pointer;
+}
+
+.block-price .block-price-item .name {
+  width: 12vw;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.block-text-name {
+  font-size: 1vw !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .block-price .block-price-item .name {
+    width: 18vw;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+
+  .header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+  }
+
+  .computers .button-wrapper .fangs {
+    font-size: 1.5vw;
+  }
+
+  .computers .comp-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+
+  .computers .comp-wrapper .comp {
+    width: 100%;
+  }
+
+  .computers .comp-wrapper .comp img {
+    width: 15vw;
+    height: 15vw;
+    margin-top: 4vw;
+  }
+
+  .computers .comp-wrapper .comp h1 {
+    line-height: 4vw;
+  }
+
+  .computers .comp-wrapper .comp .info p {
+    line-height: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 4vw;
+    margin-bottom: -5vw;
+  }
+
+  .computers .button-wrapper .button-comp {
+    font-size: 1.5vw;
+    width: 30vw !important;
+  }
+
+  .computers .comp-wrapper .comp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    width: 100%;
+  }
+
+  .computers .comp-wrapper .comp img {
+    width: 40vw;
+    height: 40vw;
+    margin-top: 4vw;
+  }
+
+  .computers .comp-wrapper .comp h1 {
+    line-height: 6vw;
+  }
+
+  .computers .comp-wrapper .comp .info p {
+    line-height: 5vw;
+  }
+
+  .computers .button-wrapper {
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+
+  .computers .button-wrapper .button {
+    width: 25vw;
+    height: 8vw;
+    font-size: 3vw;
+  }
+
+  .computers .button-wrapper .button:hover {
+    -webkit-transition: 500ms ease-in-out;
+    transition: 500ms ease-in-out;
+  }
+
+  .computers .button-wrapper .button-vip {
+    margin-left: 2em;
+    background-color: #a8162a;
+  }
+
+  .computers .button-wrapper .button-accent {
+    border: 2px solid #615959;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .block-price .block-price-item .name {
+    width: 15vw;
+    height: 3vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+
+  .block-text-name {
+    font-size: 3vw !important;
+  }
+
+  header h1.title {
+    font-size: 1.2em;
+  }
+
+  header .price-list p.price {
+    width: 12em;
+    height: 4em;
+  }
+
+  header h1 {
+    font-size: 4vw;
+    margin-bottom: -5vw;
+  }
+
+  .computers .button-wrapper .button-comp {
+    font-size: 2.3vw;
+    width: 20vw !important;
+    height: 3vh;
+  }
+
+  .computers .button-wrapper .fangs {
+    font-size: 2.3vw;
+    width: 35vw !important;
+    height: 3vh;
+  }
+
+  .computers .comp-wrapper .comp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    width: 100%;
+  }
+
+  .computers .comp-wrapper .comp .img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .computers .comp-wrapper .comp .img img {
+    width: 200px !important;
+    height: 200px !important;
+    margin-top: 4vw;
+  }
+
+  .computers .comp-wrapper .comp h1 {
+    line-height: 9vw;
+    font-size: 6vw;
+  }
+
+  .computers .comp-wrapper .comp .info p {
+    line-height: 6vw;
+    font-size: 4vw;
+  }
+
+  .computers .button-wrapper {
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+
+  .computers .button-wrapper .button {
+    width: 35vw;
+    height: 15vw;
+    font-size: 4vw;
+  }
+
+  .computers .button-wrapper .button:hover {
+    -webkit-transition: 500ms ease-in-out;
+    transition: 500ms ease-in-out;
+  }
+
+  .computers .button-wrapper .button-vip {
+    margin-left: 2em;
+    background-color: #a8162a;
+  }
+
+  .computers .button-wrapper .button-accent {
+    border: 2px solid #615959;
+  }
+
+  .price-lists {
+    margin: 0 !important;
+    margin-top: 10vw;
+    padding: 0 !important;
+  }
+
+  .price-lists .logotip {
+    display: none;
+    margin-top: 10vw;
+  }
+
+  .price-lists .list {
+    margin: 0 !important;
+    margin-top: 15vw !important;
+  }
+
+  .price-lists .list .title {
+    font-size: 8vw !important;
+  }
+
+  .price-lists .list .links a {
+    font-size: 4vw;
+  }
+
+  .price-lists .list .block-price .block-price-item .name {
+    width: 30vw;
+    height: 8vh;
+    font-size: 4vw;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+
+  .price-lists .list .block-price .block-price-item .price-listing .price-item {
+    font-size: 3vw !important;
+  }
+
+  #hui header .price-list .price {
+    font-size: 3vw;
+    width: 40vw;
+    margin-top: 3vw;
+  }
+
+  .info-block .info-club {
+    margin-top: 5vw;
+    height: 50vh;
+    width: 100vw;
+    border-radius: 1vw;
+  }
+
+  .info-block .info-club .title .name {
+    font-size: 9vw;
+    margin-bottom: 1vw;
+  }
+
+  .info-block .info-club .title .adress {
+    font-size: 5vw;
+  }
+
+  .info-block .info-club .info .block-text-name {
+    margin-top: 3vw;
+    font-size: 5vw !important;
+    line-height: 6vw !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  header h1.title {
+    font-size: 1em;
+  }
+}
+
